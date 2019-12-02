@@ -5,16 +5,23 @@
   <title>Basketball Team Signup</title>
  </head>
  <body>
-   <h1>Create a Basketball Team!</h1>
+   <h1>Create a Basketball Team</h1>
    <form action="/team" method="POST">
-     <p><strong>Team Name: </strong><input type="text" name="name"></p>
-     <p><strong>Coach: </strong><input type="text" name="coach"></p>
-     <p><strong>Point Guard: </strong><input type="text" name="pg"></p>
-     <p><strong>Shooting Guard: </strong><input type="text" name="sg"></p>
-     <p><strong>Small Foward: </strong><input type="text" name="sf"></p>
-     <p><strong>Power Forward: </strong><input type="text" name="pf"></p>
-     <p><strong>Center: </strong><input type="text" name="c"></p>
-     <input type="submit" id="Submit">
+     <label for="name"><strong>Team Name:</strong></label>
+     <input type="text" name="name" id="name"></input><br><br>
+     <label for="coach"><strong>Coach:</strong></label>
+     <input type="text" name="coach" id="coach"></input><br><br>
+     <label for="pg"><strong>Point Guard:</strong></label>
+     <input type="text" name="pg" id="pg"></input><br><br>
+     <label for="sg"><strong>Shooting Guard:</strong></label>
+     <input type="text" name="sg" id="sg"></input><br><br>
+     <label for="sf"><strong>Small Forward:</strong></label>
+     <input type="text" name="sf" id="sf"></input><br><br>
+     <label for="pf"><strong>Power Forward:</strong></label>
+     <input type="text" name="pf" id="pf"></input><br><br>
+     <label for="c"><strong>Center:</strong></label>
+     <input type="text" name="c" id="c"></input><br><br>
+     <input type="submit" name="Submit" id="Submit"></input>
    </form>
  </body>
 </html>
